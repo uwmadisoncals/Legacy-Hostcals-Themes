@@ -1,0 +1,229 @@
+#datepicker{
+	display: inline-block;
+	float: right;
+	width: 300px;
+	position: relative;
+	
+	thead{
+		color: #666;
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		
+		span{
+			float: right;
+		}
+	}
+	
+	.ui-datepicker-inline{
+		padding: 1em;
+		border: 1px solid #ccc;
+		padding-bottom: 5em;
+	}
+	
+	.ui-datepicker-calendar{
+		margin-top: 1em;
+		margin-bottom: 0em;
+	}
+	
+	td{
+		padding: 10px;
+		padding-right: 13px;
+		
+		a{
+			float: right;
+		}
+	}
+	
+	.ui-datepicker-header {
+		position: relative;
+	}
+	
+	.ui-datepicker-title{
+		text-align: center;
+		font-weight: bold;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		line-height: 2.6em;
+		text-transform: uppercase;
+	}
+	
+	.ui-datepicker-prev,
+	.ui-datepicker-next{
+		position: absolute;
+		text-indent: -9999px;
+	}
+	
+	.ui-datepicker-prev{
+		background-image: url(/assets/img/arrow-left-thin.svg);
+		background-repeat: no-repeat;
+		background-size: 18px;
+		top: 10px;
+		left: 0px;
+		width: 18px;
+		height: 18px;
+	}
+	
+	.ui-datepicker-next{
+		background-image: url(/assets/img/arrow-right-thin.svg);
+		background-repeat: no-repeat;
+		background-size: 18px;
+		top: 10px;
+		right: 0px;
+		width: 18px;
+		height: 18px;
+	}
+	
+	.ui-datepicker-current-day{
+		background: $chat-color-blue;
+		
+		a{
+			color: #fff;
+		}
+	}
+	
+	 
+}
+
+.content-hours .entry-content ul li a.special_hours{
+	display: inline-block;
+	padding: 0em;
+}
+
+.content-hours .entry-content ul li a.special_hours:hover,
+.content-hours .entry-content ul li a.special_hours:focus{
+	text-decoration: underline;
+}
+
+.content-hours .entry-content ul li a.special_hours:before{
+	content: "(";
+}
+.content-hours .entry-content ul li a.special_hours:after{
+	content: ")";
+}
+
+.date-selected{
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+	padding: 1em 2em 1em 0em;
+	
+	border: 1px solid #ededed;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 0.3em 1em;
+}
+
+
+.hours-details{
+	position: relative;
+	margin-top: 1.5em;
+}
+
+.display-all-hours {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	z-index:2;
+	color: #acacac;
+	display: inline-block;
+	padding: 0.3em;
+	
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	
+	svg {
+		
+		polygon, circle, path {
+			fill: #acacac;
+		}
+		
+	}
+	
+}
+
+
+	
+	.content-hours{
+		.entry-content{
+			ul{
+				list-style: none;
+				margin: 1em;
+				padding: 0em;
+				position: relative;
+				width: 98%;
+				left: -0.5em;
+				
+				li{
+					border-bottom: 1px solid #ededed;
+					position: relative;
+					
+					a{
+						display: block;
+						padding: 1em 0.5em;
+						text-align: left;
+					}
+					
+					span{
+						position: absolute;
+						right: 10px;;
+						top: 13px;
+					}
+				}
+				
+				li:hover,
+				li:focus{
+					text-decoration: none;
+					background-color: rgba(233,231,218,0.5);
+				}
+				
+				li.closed{
+					display: none;
+					
+					
+					
+				}
+				
+			} 
+		}
+	}
+
+
+.entry-content .library_hours_details{
+		width: 60%;
+		position: relative;
+		
+		ul{
+			li{
+				span{
+					letter-spacing: 0.1em;
+					color: #666;
+					width: 50%;
+					text-align: right;
+				}
+				
+				a span{
+					letter-spacing: normal;
+					color: inherit;
+					position: inherit;
+					text-align: left;
+					width: 60%;
+					display: inline-block;
+				}
+			}
+		}
+}
+
+
+#todayDt{
+	position: absolute;
+	bottom: 1em;
+	left: 10em;
+}

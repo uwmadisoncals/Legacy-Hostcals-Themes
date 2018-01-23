@@ -1,0 +1,14 @@
+/*
+Theme Name:     digitalsoilmorphometrics
+Theme URI:      http://cals.wisc.edu/developers
+Description:    A child-theme of the theme 'attitude', with customized stylings for digitalsoilmorphometrics.org
+Author:         Al Nemec and Daniel Dropik
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       attitude
+Version:        0.1.0
+*/
+
+@import url("../attitude/style.css");
+
+@import url("stylesheets/css/main.css");
+

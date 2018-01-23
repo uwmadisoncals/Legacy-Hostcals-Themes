@@ -1,0 +1,25 @@
+/*
+Theme Name:     CALS Ambassadors
+Theme URI:      http://cals.wisc.edu/developers
+Description:    CALS Ambassadors child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+@import url("../calswptheme/mobile.css");
+
+.single #content, .page #content, .search-results #content, .archive #content, .error404 #content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B7B7B7;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    color: #343434;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: -20px;
+    padding: 30px;
+    position: relative;
+    width: 638px;
+}

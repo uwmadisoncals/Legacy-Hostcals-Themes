@@ -1,0 +1,11 @@
+# Needed for LCB servers
+namespace :git do
+  task :wrapper do
+    Rake::Task["git:wrapper"].clear
+    set :git_environmental_variables, {}
+    puts "Bypassing git wrapper for proper LCB operation"
+  end
+end
+
+# Fix a zlib premature stream free error message...
+set :ssh_options, {:compression => "none"}

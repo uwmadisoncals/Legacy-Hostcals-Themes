@@ -1,0 +1,102 @@
+.uwmadison_events_container {
+	margin-top: 1.5em;
+	
+	ul{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		
+		ul{
+			list-style: none;
+		}
+		
+		li{
+			position: relative;
+			margin: 0em 0em 2em;
+		}
+		
+		li.uwmadison_event{
+			padding-bottom: 1.7rem;
+			margin: 0em;
+			
+			.event_contact {
+				font-size: 1.1em;
+				display: inline-block;
+				vertical-align: top;
+				width: 40%;
+				
+				a{
+					text-align: left;
+				}
+				
+				.location{
+					background-image: url(/assets/img/location.svg);
+					background-color: transparent;
+					background-repeat: no-repeat;
+					background-size: 20px 20px;
+					background-position: 0em 0.1em;
+					padding-left: 1.7em;
+					display: inline-block;
+					vertical-align: top;
+					text-align: left;
+				}			
+			}
+		}
+	}
+	
+	.uwmadison_events_title,
+	.uwmadison_events_group .uwmadison_event_full_date{
+		display: none;
+	}
+	.uwmadison_event_title {
+		display: inline-block;
+		width: 37%;
+		padding-right: 1em;
+		text-align: left;
+		font-size: 1.1em;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	
+	.uwmadison_event_group_date, 
+	.uwmadison_event_full_date{
+		color: #5C5C5C;
+		font-size: 1.3em;
+		text-transform: uppercase;
+		border-bottom: 1px solid rgba(102,101,95,0.3);
+		display: inline-block;
+		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	
+	.uwmadison_event_date{
+		position: absolute;
+		right: 0;
+		top: 14px;
+		color: #666;
+		font-weight: 500;
+		letter-spacing: 0.1em;
+		line-height: 2.6em;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	
+	.uwmadison_events_group .uwmadison_event_date{
+		top: -4px;	
+	}
+	
+	.uwmadison_event_description{
+		display: block;	
+	}
+}
+
+.see_more_events.hide{
+	display: none;
+}
+
+.site-content p.noEvents{
+	font-size: 16px;
+	font-weight: 300;
+	text-align: left;
+}

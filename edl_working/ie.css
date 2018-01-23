@@ -1,0 +1,12 @@
+.filtered:after, .filtered-top:after, .filtered-right:after, .filtered-bottom:after, .filtered-left:after {
+  content:none;
+  display:none;
+  font-size:0em;
+  height:0;
+  line-height:0;
+  position:absolute;
+}
+
+.dropin, .dropin2, .dropin3, .dropin4, .dropin5 {
+	opacity: 1;
+}

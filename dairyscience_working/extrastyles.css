@@ -1,0 +1,78 @@
+/*
+Theme Name:     Dairy Science
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+@import url("../calsmain2013/master.css");
+
+
+/**  Child them styles **/
+
+#access .navWrapper .menu {
+	padding-right: 0px;
+}
+
+#access .globalSearch {
+	top: -60px;
+	right: 0px;
+	width: 206px;
+	height: 40px;
+	
+	z-index:15;
+		
+}
+
+#branding #access #searchform {
+	right: 0px;
+	border-left: none;
+	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+#branding #access #s {
+	border-left: none;
+	width: 70px;
+}
+
+#branding #access #s:focus {
+	border-left: none;
+	width: 200px;
+}
+
+
+
+div.headerPhotoBg {
+	z-index:1;
+}
+
+ul.slides:after {
+	display: none;
+	content: none;
+}
+
+.home .events-table {
+	color: #fff;
+}
+
+.home .events-table a {
+	
+color: #deb846;
+line-height: 1.4em;
+font-size: 14px;
+
+}
+
+.home div.collegeFeature .next:link, .home div.collegeFeature .next:visited, .home div.collegeFeature .previous:link, .home div.collegeFeature .previous:visited, .home div.collegeFeature .timer {
+	display: block !important;
+}
+
+div.collegeFeature .next:link, div.collegeFeature .next:visited, div.collegeFeature .previous:link, div.collegeFeature .previous:visited, div.collegeFeature .timer {
+	display: none !important;
+}

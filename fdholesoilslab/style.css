@@ -1,0 +1,31 @@
+/*
+Theme Name:     FD Hole Soils Lab
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+@import url("../calswptheme/mobile.css");
+
+/*#access a {
+	max-width: 110px;
+	line-height:1.333em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 28px;
+}
+
+#access .children a {
+	line-height:3.333em;
+	max-width: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#access ul ul {
+	top: 3.5em;
+}*/

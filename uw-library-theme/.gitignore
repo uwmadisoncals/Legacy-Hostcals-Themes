@@ -1,0 +1,13 @@
+# Ignore temporary files
+.sass-cache
+
+# Ignore any compiled css files
+/css/*.css
+
+# Ignore our compiled site js files
+/js/site.js
+/js/site-*.js
+
+# Ignore our compiled and fingerprinted files
+/assets/*.css
+/assets/*.js

@@ -1,0 +1,293 @@
+.startingOverlay {
+	position: absolute;
+	top: 0px;
+	left: 240px;
+	right: 0px;
+	bottom: 0px;
+	z-index:5;
+	background: rgba(0,0,0,0.6);
+	
+	.messaging {
+		text-align: center;
+		color: #fff;
+		font-family: "Raleway";
+		font-weight: 300;
+		font-size: 30px;
+		position: absolute;
+		top: 40%;
+		left: 0px;
+		right: 0px;
+		
+		h2 {
+			color: #fff;
+			font-size: 60px;
+			
+			svg {
+				height: 0.7em;
+				width: 1em;
+				-webkit-transition: 0.4s;
+				-moz-transition: 0.4s;
+				transition: 0.4s;
+				
+				polygon {
+					fill: #fff;
+					
+				}
+			}
+		}
+		
+	}
+}
+
+.campus-map{
+	position: relative;
+	
+	#map-canvas{
+		margin-top: 2em;
+	}
+	
+	.libraryInfo { 
+		display: none;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		height: 100px;
+		overflow: hidden;
+		width: 50%;
+	}
+	
+	.breadcrumb {
+		display:none;
+	}
+	
+	.libraryDropdown {
+		display: block;
+		position: absolute;
+		z-index:1;
+		width:250px;
+		left: 0px;
+		top: 0px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		height: 100%;
+		overflow:hidden;
+
+		// Hide our extra data supplied by the API
+		.library_loc {
+			display: none;
+		}
+
+		.list {
+			overflow: auto;
+			height: 100%;
+			width: 240px;
+			background: #fff;
+			box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+			-moz-box-shadow:0px 1px 4px rgba(0,0,0,0.2);
+			-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+			-webkit-transition: 0.4s;
+			-moz-transition: 0.4s;
+			transition: 0.4s;
+				
+				ul {
+					display: block;
+					list-style: none;
+					margin: 0px;
+					padding: 0px;
+					
+					li {
+						margin: 0px;
+						padding: 0px;
+						
+						a {
+							display: block;
+							padding: 1em;
+							padding-left: 1.6em;
+							padding-right: 1.6em;
+							text-decoration: none;
+							border-bottom: 1px solid rgba(0,0,0,0.1);
+						}
+						
+						a:hover {
+							background: $secondary-color-tan;
+						}
+					}
+				}
+			}	
+		}
+		
+		.libraryDropdown.visible {
+			.list {
+				-webkit-transform: translate(0px,0px);
+				-moz-transform: translate(0px,0px);
+				transform: translate(0px,0px);
+			}
+		}
+	
+	#lib-map-info{
+		display: none; 
+		position: absolute;
+		top: -30px;
+		z-index: 5;	
+		width: auto;
+
+		.hentry{
+			padding: 5em 0em 2em;
+		}
+		
+		.librariesButton {
+			
+		}
+		
+		.librariesButton:hover {
+		}
+		
+		.entry-content {
+			position:relative;
+		}
+	}
+}
+
+a.button.white {
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+	border: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 2px solid #9f9f9f;
+	color: #505050;
+	padding: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-top: 0em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+	span {
+		height: 1.5em;
+		display: inline-block;
+		position: relative;
+		
+		.arrowDown {	
+			height: 1.5em;
+			width: 1.5em;
+			margin-bottom: -5px;
+		
+			polygon {
+				fill: rgba(0,0,0,0.8);
+			}
+		}
+	}
+}
+
+a.button.white:active {
+	border-top: 2px solid #565656;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.gm-style .gm-style-iw{
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+#map-canvas{
+	padding-bottom: 2em;
+
+	.loc, .mail, .ph, .hours{
+		padding-bottom: 0.2em;
+		display: block;
+		width: auto;
+	}
+	
+	
+	h2{
+		font-size: 25px;
+		margin-top: 0em;
+		max-width: 300px;
+	}
+	
+	.contact{
+		display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+	
+	// Always hide the features and subjects on the campus-libraries page.
+	.info {
+		display: none;
+	}
+
+	.gm-style-iw > div{
+		overflow: hidden !important;
+	}
+}
+
+@media (max-width: 826px) {
+	.campus-map .libraryDropdown {
+		display: none;
+		top: 80px;
+		left: 34px;
+		width: 175px;
+		height:80%;
+		-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+		box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+		
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+				
+		.list {
+			width: 175px;
+			
+			-webkit-overflow-scrolling: touch;
+			
+		}
+	}
+	
+	.campus-map .libraryDropdown.visible {
+		display: block;  
+	}
+
+}
+
+@media (max-width: 600px) {
+	.campus-map .libraryDropdown {
+		display: none;
+		top: 100px;
+		left: 0px;
+		right: 0px;
+		bottom: 130px;
+		
+		width: 100%;
+		position:fixed;
+		-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+		box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+		
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+				
+		.list {
+			width: 100%;
+			
+			-webkit-overflow-scrolling: touch;
+			
+		}
+	}
+	
+	.campus-map .libraryDropdown.visible {
+		display: block;
+	}
+}

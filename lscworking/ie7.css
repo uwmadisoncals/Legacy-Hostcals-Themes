@@ -1,0 +1,31 @@
+body {
+	background: #ebebe1 url("images/CALS_bg.jpg") repeat-x;
+}
+
+nav ul li a:link {
+	font-size: 11px;
+}
+
+.single #content, .page #content, .search-results #content {
+	position: relative;
+  background: #fff;
+  padding: 30px;
+  color: #343434;
+  border: 1px solid #b7b7b7;
+  box-sizing: border-box;
+  -moz-box-shadow: 0px 1px 5px #a9a9a9;
+  -webkit-box-shadow: 0px 1px 5px #a9a9a9;
+  box-shadow: 0px 1px 5px #a9a9a9;
+  float: left;
+  width: 637px;
+  margin-right: -20px;
+}
+
+#nav_sidebar {
+	position: relative;
+	z-index:5;
+}
+
+#branding input#s {
+	background-color: #8f8f8f;
+}

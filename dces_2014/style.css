@@ -1,0 +1,106 @@
+/*
+Theme Name:     DCES 2014 Theme
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+/*@import url("../calsmain2013/master.css");*/
+
+
+
+/**  Child them styles **/
+
+/*#access .navWrapper .menu {
+	padding-right: 0px;
+}
+
+#access .globalSearch {
+	top: -60px;
+	right: 0px;
+	width: 206px;
+	height: 40px;
+	
+	z-index:15;
+		
+}
+
+#branding #access #searchform {
+	right: 0px;
+	border-left: none;
+	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+#branding #access #s {
+	border-left: none;
+	width: 70px;
+}
+
+#branding #access #s:focus {
+	border-left: none;
+	width: 200px;
+}
+
+
+
+div.headerPhotoBg {
+	z-index:1;
+}
+
+ul.slides:after {
+	display: none;
+	content: none;
+}
+
+.home .events-table {
+	color: #fff;
+}
+
+.home .events-table a {
+	
+color: #deb846;
+line-height: 1.4em;
+font-size: 14px;
+
+}
+
+.home .events-table tr td {
+	padding-top: 1em;
+}
+
+.home .events-table thead tr th {
+	font-weight: bold;
+}
+
+
+
+.boxContent h3.spotlight_title_small {
+	font-size: 14px;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+.box.videos img {
+	margin-top: -70px;
+	height: 180% !important;
+	width: auto !important;
+}
+
+footer#colophon .inner .copyright {
+	margin-top: 20px;
+}
+
+footer#colophon .socialRef {
+	margin-top: 80px;
+}
+
+.single #content.fullWidth {
+	width: 940px;
+}*/

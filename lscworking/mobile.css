@@ -1,0 +1,218 @@
+/* Screen below native width of 960px ----------- */
+@media only screen and (min-width : 640px) and (max-width : 960px) {
+	#primary {
+		width: 622px;
+
+	}
+
+
+	#container, #container2, #container3, #container4 {
+		margin-left: -10px;
+		margin-right: -10px;
+		padding: 5px;
+		margin-bottom: 20px;
+		width: 470px;
+		float: left;
+	}
+
+	.collegeFeature2 {
+		width: 620px;
+	}
+
+	.newsItem.homewidget {
+		width: 150px;
+	}
+
+	.home .newsItem.fifth {
+		margin-top: 0px;
+	}
+
+	.home .newsItem.twitter .previousa {
+		height: 530px !important;
+	}
+
+	#branding {
+		width: 622px;
+
+
+	}
+
+	#branding .heading {
+		width: 622px;
+
+
+	}
+
+	.two-column #branding {
+		width: auto;
+	}
+
+	.two-column #branding .heading {
+		width: auto;
+	}
+
+
+	.collegeFeature {
+
+		width: 622px;
+
+	}
+
+	#primary, .single #primary, .page #primary {
+		width: 622px;
+		overflow: hidden;
+
+			}
+
+	.two-column #primary, .two-column.single #primary, .two-column.page #primary {
+		width: auto;
+		padding-right: 230px;
+	}
+
+	.two-column #primary #content, .two-column.single #primary #content, .two-column.page #primary #content {
+		width: auto;
+
+	}
+
+
+
+	.home.two-column #secondary {
+		position: absolute;
+		top: 466px;
+		right: 0px;
+		z-index:4;
+	}
+
+	#uwred .home.two-column #secondary {
+		position: absolute;
+		top: 438px;
+		right: 0px;
+		z-index:4;
+	}
+
+	.collegeFeature, .collegeFeature li {
+		width: 622px;
+	}
+
+
+
+	.two-column .collegeFeature, .two-column .collegeFeature li {
+		width: auto;
+	}
+
+
+	footer .inner {
+		width: 622px;
+
+	}
+
+	.collegeFeature li {
+		/*width:622px;*/
+
+	}
+
+
+}
+
+
+/* Screen below 640px ----------- */
+@media only screen and (min-width : 100px) and (max-width : 640px) {
+	#primary {
+		width: 90%;
+
+	}
+
+	#branding {
+		width: 90%;
+
+
+
+	}
+
+	.collegeFeature2 {
+		width: 90%;
+	}
+
+	.home .newsItem.storyFeature .previousa {
+		height: auto !important;
+	}
+
+	.home .newsItem .additionalContent {
+		max-height: none;
+	}
+
+	.newsItem {
+		width: 100%;
+	}
+
+	.newsItem a:link, .newsItem a:visited, .newsItem .previousa, .newsItemAlt .previousa {
+		width: 100%;
+	}
+
+
+	#container, #container2, #container3, #container4 {
+		margin-left: -10px;
+		margin-right: -10px;
+		padding: 5px;
+		margin-bottom: 20px;
+		width: 100%;
+		float: left;
+	}
+
+	.newsItem.homewidget {
+		width: 90%;
+	}
+
+	.home .newsItem.fifth {
+		margin-top: 0px;
+	}
+
+	.storyFeature .previousa .text, .twitter .previousa .text {
+		height: auto !important;
+	}
+
+	.home .newsItem.twitter .previousa {
+		width: 100%;
+		height: auto !important;
+	}
+
+
+	#branding .heading {
+		width: 90%;
+
+
+
+	}
+
+	#branding img {
+		width: 100%;
+	}
+
+
+
+	.collegeFeature {
+
+		width: 308px;
+
+	}
+
+	#primary, .single #primary, .page #primary {
+		width: 90%;
+		margin: 0 auto;
+		overflow: hidden;
+
+			}
+
+
+	footer .inner {
+		width: 90%;
+
+	}
+
+	.collegeFeature li {
+		width:308px;
+
+
+	}
+
+}

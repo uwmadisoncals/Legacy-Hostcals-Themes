@@ -1,0 +1,286 @@
+/*
+Theme Name:     Law Career Services Theme
+Theme URI:      http://uwtheme.wordpress.wisc.edu/
+Description:    Scimed GRS child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       eln
+Version:        0.2.0
+*/
+
+@import url("../eln/style.css");
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,100);
+
+nav {
+	background: #cbc8b7;
+}
+
+.single div#content, .page div#content, .search-results div#content, .archive div#content, .error404 div#content {
+	width: 694px;
+}
+
+
+.home .entry-title {
+	display: none;
+}
+
+.home .homeImage img {
+	width: 100%;
+}
+
+.home .homeImage {
+	position: relative;
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	
+}
+
+.home .homeImageCaption {
+	position: absolute;
+	bottom: 2em; 
+	left: 2em;
+	right: 2em;
+	font-size: 1.2em;
+	font-family: "Raleway";
+	line-height: 1.6em;
+	font-weight: 300;
+	z-index:3;
+	color: rgba(255,255,255,0.9);
+}
+
+.home .homeImageGradient {
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	right: 0px;
+	height: 70%;
+	z-index:2;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.home .entry-content {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	
+}
+
+.home .entry-content h3 {
+	font-family: "Raleway";
+	font-variant: normal;
+	text-transform: capitalize;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: normal;
+	margin-bottom: 1em;
+	line-height: 2.3em;
+}
+
+.donateContainer {
+	position:absolute;
+	top: 2.3em;
+	right: 2em;
+	z-index:3;
+	width: 25%;
+		
+}
+
+footer .inner {
+	padding-bottom: 180px;
+}
+
+a.button.blue {
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+background: #5598d1;
+background: -moz-linear-gradient(top, #5598d1 0%, #4a82b1 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5598d1), color-stop(100%, #4a82b1));
+background: -webkit-linear-gradient(top, #5598d1 0%, #4a82b1 100%);
+background: -o-linear-gradient(top, #5598d1 0%, #4a82b1 100%);
+background: -ms-linear-gradient(top, #5598d1 0%, #4a82b1 100%);
+background: linear-gradient(to bottom, #5598d1 0%, #4a82b1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5598d1', endColorstr='#4a82b1',GradientType=0 );
+border-bottom: 3px solid #3a6488;
+color: #fff;
+padding: 0.5em;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-size: 16px;
+}
+
+.donateContainer .button {
+color: #fff;
+margin-top: 1rem;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+
+.donateContainer  a {
+color: rgba(150,187,214,0.5);
+}
+
+
+button, input[type="submit"], input[type="button"], input[type="reset"], a.button, .entry-content a.button {
+background: #c93f3f;
+background: -moz-linear-gradient(top, #c93f3f 0%, #a01818 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c93f3f), color-stop(100%, #a01818));
+background: -webkit-linear-gradient(top, #c93f3f 0%, #a01818 100%);
+background: -o-linear-gradient(top, #c93f3f 0%, #a01818 100%);
+background: -ms-linear-gradient(top, #c93f3f 0%, #a01818 100%);
+background: linear-gradient(to bottom, #c93f3f 0%, #a01818 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c93f3f', endColorstr='#a01818',GradientType=0 );
+border: none;
+border-bottom: 3px solid #7e1010;
+border-radius: 2px;
+color: #fff;
+display: inline-block;
+padding: 11px 24px 10px;
+text-decoration: none;
+}
+
+.filtered2 li {
+	list-style: none;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	margin-top: 1em;
+	font-size: 14px;
+}
+
+.imagePlacement.singleProfile {
+	float:left;
+	width: 45%;
+	
+	padding-right: 5%;
+	border-right: 1px solid #ececec;
+	box-sizing: border-box;
+}
+
+.imagePlacement.singleProfile img {
+	width: 100%;
+	height: auto;
+	max-width: 240px;
+	float:right;
+	}
+
+.singleProfileText {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.filtered2 li .subTitle, .singleProfileText .subTitle {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.5);
+	letter-spacing: 1px;
+	font-size: 10px;
+}
+
+.filtered2 li .entry-title {
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1em;
+}
+
+#prof_s {
+	width: 90%;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ececec;
+	box-shadow: none;
+	font-size: 36px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	background: url("images/search-icon.svg") no-repeat;
+	background-size: 45px;
+	background-position: 0px 10px;
+	padding-left: 50px;
+}
+
+.filtered2 li .profileColumn1 {
+	padding-left: 1.5em;
+}
+
+.filtered2 li .profileColumn2 .row, .singleProfileText .row {
+	margin-top: 0.6em;
+}
+
+.filtered2 li .imageCrop {
+	width: 100px;
+	
+	
+	overflow: hidden;
+	float: left;
+}
+
+.filtered2 li .imageCrop img {
+	width: 100%;
+	height: auto;
+	border-radius: 3px;
+}
+
+.filtered2 li .textCopy {
+	width: 40%;
+	float: left;
+}
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 800px) {
+	footer .copyright, footer .donateContainer {
+		position:relative;
+		
+	}	
+	
+	footer .donateContainer {
+		right: 2em;
+		left: 2em;
+		width: 80%;
+	}
+	
+	.single #content, .page #content, .search-results #content, .archive #content, .error404 #content {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 700px) { 
+	.filtered2 li .profileColumn2 {
+		display:block;
+		float: none;
+		padding-left: 120px;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 600px) {
+	footer .copyright img {
+		display: none;
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width: 960px) and (min-width: 640px) {
+	.single #content, .page #content, .search-results #content, .archive #content, .error404 #content {
+		width: 100%;
+	}
+	
+	#page #branding img {
+		width: 60%;	
+	}
+}

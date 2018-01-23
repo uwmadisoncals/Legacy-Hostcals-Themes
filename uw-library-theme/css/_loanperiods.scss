@@ -1,0 +1,182 @@
+.loan_period_select,
+.item_select {
+	padding: 1em 3em 1em 1em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+	display: block;
+	position: relative;
+	width: 450px;
+	overflow: hidden;
+	white-space: nowrap;
+	z-index:2;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 3em;
+	width: 60%;
+	
+	svg{
+		width: 15px;
+		height: 15px;
+		position: absolute;
+		right: 20px;
+		top: 1.3em;
+		z-index: 3;
+	}
+}
+
+
+
+.loan_period_select.expanded,
+.item_select.expanded {
+	background: #5598d1;
+	color: #fff;
+	
+	svg{
+		polygon{
+			fill: #fff;
+		}
+	}
+}
+
+.loan_period_select.expanded:hover,
+.item_select.expanded:hover {
+	text-decoration: none;
+	color: #fff;
+	
+	svg{
+		polygon{
+			fill: #fff;
+		}
+	}
+}
+
+.loan_period_select:hover,
+.item_select:hover {
+	border: 1px solid #5598d1;
+	text-decoration: none;
+	
+	svg{
+		polygon{
+			fill: #5598d1;
+		}
+	}
+}
+
+
+#loan_period_container,
+#select_container {
+	position: relative;
+}
+
+#loan_period_info, 
+#select_info{
+	display: none;
+	margin: 3.6em 0em 0em 0em;
+	padding: 0px;
+	list-style: none; 
+	width: 60%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:1;
+	max-height: 320px;
+	overflow: auto;
+	
+	
+	
+	
+	li{
+	
+		text-align: left;
+		width: 100%;
+		background: #fff;
+		
+		
+		
+		a {
+			padding: 1em;
+			display: block;
+			font-size: 14px;
+			letter-spacing: 1px;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+			letter-spacing: normal;
+			font-size: 1em;
+		}
+		
+		.loan_periods{
+			display: none;
+		}
+	}
+	
+	.person_list{
+		display: none;
+	}
+}
+
+#libInfo{
+	margin-top: 2em;
+	
+	.note {		
+		padding: 0.7em 1em;
+		font-size: 14px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		margin-bottom: 1.4em;
+		background: $chat-color-blue;
+		color: #fff;
+		display: inline-block;
+		width: 100%;
+	}
+	
+	ul{
+		list-style: none;
+		margin: 0em 0em 1em;
+		padding: 0em;
+		
+		li{
+			border-bottom: 1px solid #ccc;
+			padding: 1em 0em;
+			
+			.item{
+				width: 43%;
+				display: inline-block;
+				font-weight: bold;
+				vertical-align: top;
+			}
+			
+			.desc{
+				width: 55%;
+				display: inline-block;
+				vertical-align: top;
+			}
+		}
+	}	
+}
+
+#libInfo.loc-staff-list{
+	margin-top: 5em;
+}
+
+
+
+//Alternate CSS for other version of Loan Period Page
+.right-Nav #loan_period_container{
+	.loan_period_select{
+		width: 100%;
+		margin-top: 0em;
+	}
+	
+	#loan_period_info{
+		width: 100%;
+	}
+}

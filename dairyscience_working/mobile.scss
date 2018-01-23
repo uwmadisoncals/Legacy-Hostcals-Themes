@@ -1,0 +1,631 @@
+/*  */
+
+@media only screen and (min-width : 960px) {
+	.mobileScroll {
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		transform: none !important;
+		-webkit-transition: none !important;
+		-moz-transition: none !important;
+		transition: none !important;
+	}
+}
+
+@media only screen and (min-width : 640px) and (max-width : 960px) {
+	.page #primary, .single #primary, .page #content.fullWidth, #primary {
+		width: 98%;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	
+	.mobileScroll {
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		transform: none !important;
+		-webkit-transition: none !important;
+		-moz-transition: none !important;
+		transition: none !important;
+	}
+	
+	.box.span-50:first-child {
+		margin-left: 1%;
+		width: 48%;
+	}
+	
+	.box.span-33:first-child {
+		margin-left: 1%;
+		width: 31.3%;
+	}
+	
+	#branding .headerCentered {
+		width: 100%;
+	}
+	
+	.utilityMenu {
+		right: 10px;
+	}
+	
+		
+	#nav_sidebar, .searchSidebar {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 28px;
+		z-index:5;
+	}
+	
+	#main {
+		margin-top: -280px;
+	}
+	
+	.home #primary #content img {
+		max-width: none;
+		height: auto;
+	}
+	
+	#primary #content img {
+		max-width: 100%;
+		height: auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.home #primary #content {
+		padding-right: 0px;
+	}
+	
+	.home #primary #content img {
+		padding-right: 0px;
+	}
+	
+	#primary #content {
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-right: 260px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.page-template-page-125th-php #primary #content {
+		padding-right: 0px;
+	}
+	
+	.heading {
+		width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	
+		
+	
+	nav, .headeroverlay {
+		
+		
+		
+	}
+	
+	#access {
+		margin-left: 1em;
+		margin-right: 1em;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: auto;
+	}
+	
+	.headerbgBlur {
+		margin-left: 1em;
+	}
+	
+	
+	.home .collegeFeature li .featureCaption, .home .iosSlider .featureCaption {
+		left: 1em;
+	}
+	
+	body.home.page .row .box.span-33, body.home.page .row .box.span-50 {
+		height: 180px;
+	}
+	
+	footer .inner {
+		width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	
+	
+	footer .inner #pre-footer .linksContainer {
+		width: 65%;
+	}
+	
+	/*.box img {
+		height: 100%;
+		
+	}*/
+	
+	.home .row .box img {
+		width: 120%;
+	}
+	
+	.box.fullbleed.span-50 img {
+		
+		max-width: 180% !important;
+	}
+}
+
+/*  */
+@media only screen and (min-width : 420px) and (max-width : 640px) {
+	.page #primary, .single #primary, .page #content.fullWidth, #primary {
+		width: 98%;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	
+	#mobile-menu {
+	display: block;
+	
+}
+
+
+#access {
+		opacity: 0;
+	}
+	
+	.mobileNavTriggerLarge {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		z-index:91;
+	}
+	
+	#main {
+		margin-top: -250px;
+	}
+	
+	.home #primary #content img {
+		max-width: none;
+		height: auto;
+	}
+	
+	#primary #content img {
+		max-width: 100%;
+		height: auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.home #primary #content {
+		padding-right: 0px;
+	}
+	
+	.home #primary #content img {
+		padding-right: 0px;
+	}
+	
+	#primary #content {
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+		
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	} 
+	
+	#content .page {
+		padding-top: 0px;
+	}
+	
+	#nav_sidebar {
+		display: none;
+		float: none;
+		left: 0px;
+		width: 100%;
+		margin-left: 0px;
+	}
+	
+	
+	
+	.box.span-50:first-child {
+		margin-left: 1%;
+		width: 48%;
+	}
+	
+	.box.span-33, .box.span-33:last-child {
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 2%;
+		width: 98%;
+		
+	}
+	
+	.box.fullbleed.span-50 {
+		width: 100%;
+		margin: 0px;
+	}
+	
+	body.home.page .row .box.span-33 {
+		height: 300px;
+	}
+	
+	#branding .headerCentered {
+		width: 100%;
+	}
+	
+	.utilityMenu {
+		right: 10px;
+	}
+	
+	
+	.heading {
+		width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	
+		
+	
+	nav, .headeroverlay {
+		
+		
+		
+	}
+	
+	#access {
+		margin-left: 1em;
+		margin-right: 1em;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: auto;
+	}
+	
+	.headerbgBlur {
+		margin-left: 1em;
+	}
+	
+	
+	.home .collegeFeature li .featureCaption, .home .iosSlider .featureCaption {
+		left: 1em;
+	}
+	
+	body.home.page .row .box.span-33, body.home.page .row .box.span-50 {
+		height: 180px;
+	}
+	
+	footer .inner {
+		width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	
+	
+	footer .inner #pre-footer .linksContainer {
+		width: 65%;
+	}
+	
+	.home .row .box.span-50 img {
+		width: 135%;
+	}
+	
+	/*.box.fullbleed.span-50 img {
+		width:120% !important;
+		height: auto !important;
+		max-width: 160% !important;
+	}*/
+	
+	a.mobileNavTrigger {
+		display: block;
+	}
+	
+	.mobile a.mobileNavTrigger {
+		display: block;
+		position: absolute;
+		top: 3em;
+		right: 1em;
+		z-index:92;
+	}
+	
+	#access .centerfix .navWrapper .menu {
+		display: none;
+	}
+	
+	.collegeFeature, .headerPhotoBg, .collegeFeature li {
+		height: 420px;
+	}
+	
+	#branding .logoImage {
+		display: block;
+		width: 100%;
+		padding-right: 50px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	#branding img {
+		width: 100%;
+	}
+
+	
+	a.mobileNavTrigger {
+		display: block;
+		position: absolute;
+		top: 3.7em;
+		right: 1em;
+		background: url("images/mobilemenubutton2.png") no-repeat;
+		background-position: center center;
+		width:40px;
+		height: 40px;
+		text-indent: -100000px;
+		z-index:92;
+	}
+	
+	.box.fullbleed.span-50 img {
+		
+		max-width: 180% !important;
+	}
+}
+
+
+/*  */
+@media only screen and (min-width : 100px) and (max-width : 420px) {
+	.page #primary, .single #primary, .page #content.fullWidth, .page #content, #content {
+		width: 98%;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	
+	
+	.home.page #mobile-menu .blurredBodyCopy .top {
+	height: 150px;
+	overflow: hidden;
+}
+
+.page #mobile-menu .blurredBodyCopy .top {
+	height: 70px;
+	overflow: hidden;
+}
+
+#mobile-menu .blurredBodyCopy .middle {
+	padding-top: 2em;
+}
+
+	
+	
+	#access {
+		opacity: 0;
+	}
+	
+	.iPhone .mobileScroll {
+		position: relative;
+	}
+		
+	#main {
+		margin-top: -230px;
+	}	
+	
+	.singular.page .hentry {
+		padding-top: 0px;
+	}
+	
+	#primary #content img {
+		max-width: 100%;
+	}
+	
+	#mobile-menu {
+	display: block;
+	
+}
+	
+	.mobileNavTriggerLarge {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		z-index:91;
+	}
+	
+	.box.span-50, .box.span-50:last-child {
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 2%;
+		width: 98%;
+	}
+	
+	.box.fullbleed.span-50 {
+		width: 100%;
+		margin: 0px;
+	}
+	
+	.box.fullbleed.span-50 img {
+		height:120% !important;
+		width: auto !important;
+		max-width: 180% !important;
+	}
+	
+	.box.span-33, .box.span-33:last-child {
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-bottom: 2%;
+		width: 98%;
+		
+	}
+	
+	body.home.page .row .box.span-33, body.home.page .row .box.span-50 {
+		height: 240px;
+	}
+	
+	#branding .headerCentered {
+		width: 100%;
+	}
+	
+	.utilityMenu {
+		right: 10px;
+	}
+	
+	
+	.heading {
+		width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	
+		
+	
+	nav, .headeroverlay {
+		
+		
+		
+	}
+	
+	#access {
+		margin-left: 1em;
+		margin-right: 1em;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		width: auto;
+	}
+	
+	.headerbgBlur {
+		margin-left: 1em;
+	}
+	
+	
+	.home .collegeFeature li .featureCaption, .home .iosSlider .featureCaption {
+		left: 1em;
+	}
+	
+	body.home.page .row .box.span-33, body.home.page .row .box.span-50 {
+		height: 180px;
+	}
+	
+	.collegeFeature li .featureCaption h2 {
+		font-size: 28px;
+	}
+	
+	footer .inner {
+		width: 100%;
+		padding-left: 1em;
+		padding-right: 1em;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	
+	
+	footer .inner #pre-footer .linksContainer {
+		width: 100%;
+	}
+	
+	footer .inner #pre-footer .quick_links_list {
+		width: 50%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	footer .inner .copyright {
+		width: 100%;
+	}
+	
+	footer .socialRef {
+		display: none;
+	}
+	
+	.linksContainer.right {
+		display: none;
+	}
+	
+	a.mobileNavTrigger {
+		display: block;
+	}
+	
+	.mobile a.mobileNavTrigger {
+		display: block;
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		z-index:92;
+	}
+	
+	#access .centerfix .navWrapper .menu {
+		display: none;
+	}
+	
+	.collegeFeature, .headerPhotoBg, .collegeFeature li {
+		height: 320px;
+	}
+	
+	.home .collegeFeature li .featureCaption {
+		bottom: 165px;
+	}
+	
+	#branding .logoImage {
+		display: block;
+		width: 100%;
+		padding-right: 50px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.utilityMenu {
+		display: none;
+	}
+	
+	.home .row .box img {
+		width: 135%;
+	}
+	
+	.contrastmask1 {
+		display: none;
+	}
+	
+	#branding img {
+		width: 100%;
+	}
+	
+	.heading {
+		padding-top: 10px;
+	}
+	
+	a.mobileNavTrigger {
+		display: block;
+		position: absolute;
+		top: 2em;
+		right: 1em;
+		background: url("images/mobilemenubutton2.png") no-repeat;
+		background-position: center center;
+		background-size: 28px 23px;
+		width:40px;
+		height: 40px;
+		text-indent: -100000px;
+		z-index:92;
+	}
+}

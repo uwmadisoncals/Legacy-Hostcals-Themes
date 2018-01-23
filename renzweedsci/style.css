@@ -1,0 +1,26 @@
+/*
+Theme Name:     Renz Weed Science
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Renz Weed Science child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+@import url("../calswptheme/mobile.css");
+
+
+.home.right-sidebar #content {
+width: 100%;
+margin-right: 10px;
+}
+
+@-moz-document url-prefix() {
+	.home.right-sidebar #content {
+	width: 878px;
+	margin-right: 10px;
+	}
+}
+

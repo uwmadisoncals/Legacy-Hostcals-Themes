@@ -1,0 +1,40 @@
+/*
+Theme Name:     Soil Science
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Soil Science child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+/*@import url("../calswptheme/mobile.css");*/
+
+.home #secondary, .blog #secondary {
+float: left;
+width: 230px;
+}
+
+#secondary {
+float: right;
+width: 230px;
+}
+
+h1.entry-title, h1.entry-title a {
+font-size: 18px;
+padding-top: 0px;
+color: #D18E19;
+border-color: #D18E19;
+}
+
+#main #content a:link, #main #content a:visited {
+	color: #D18E19;
+	border-color: #D18E19;
+}
+
+
+
+.staffboxbig:before, .staffboxbig:after { content: ""; display: table; }
+.staffboxbig:after { clear: both; }
+.staffboxbig { zoom: 1; }

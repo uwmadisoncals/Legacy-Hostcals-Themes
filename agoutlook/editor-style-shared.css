@@ -1,0 +1,27 @@
+/** These styles are used in the backend editor AND in your Theme. **/
+
+.pull-quote {
+	display:block;
+	float: right;
+	margin: 1em;
+	font-size: 2.2em;
+	line-height: 1em;
+	width: 40%;
+	color: #b22632;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-style: italic;
+	
+}
+
+.pull-quote.left {
+	display:block;
+	float: left;
+	margin-left: 0em;
+}
+
+.pull-quote.right {
+	display:block;
+	float: right;
+	margin-right: 0em;
+}

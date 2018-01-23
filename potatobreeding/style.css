@@ -1,0 +1,20 @@
+/*
+Theme Name:     Shawn Kaeppler Lab
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Shawn Kaeppler Lab child theme for the UC Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       uwmadison
+Version:        0.1.0
+*/
+
+
+@import url("../uwmadison/style.css");
+
+.home .entry-header {
+	display: none;
+}
+
+.attachment #comments {
+	display: none;
+}

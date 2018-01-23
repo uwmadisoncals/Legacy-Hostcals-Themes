@@ -1,0 +1,428 @@
+/*
+Theme Name:     Dairy Science
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+@import url("../calsmain2013/master.css");
+
+
+/**  Child them styles **/
+
+
+#access .navWrapper .menu {
+	padding-right: 0px;
+}
+
+#access .globalSearch {
+	top: -60px;
+	right: 0px;
+	width: 206px;
+	height: 40px;
+
+	z-index:15;
+
+}
+
+#branding #access #searchform {
+	right: 0px;
+	border-left: none;
+	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.row .events.box .boxContent .highlighted {
+	font-size: 12px;
+}
+
+#branding #access #s {
+	border-left: none;
+	width: 70px;
+}
+
+#branding #access #s:focus {
+	border-left: none;
+	width: 200px;
+}
+
+
+
+div.headerPhotoBg {
+	z-index:1;
+}
+
+ul.slides:after {
+	display: none;
+	content: none;
+}
+
+.row .events.box .boxContent {
+	color: #fff;
+}
+
+.row .events.box .boxContent h2 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-top: 1em;
+}
+
+.row .events.box .boxContent .highlighted {
+	background: rgba(0,0,0,0.5);
+	margin-left: -2em;
+	margin-right: -2em;
+	padding: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 1em;
+}
+
+/*.row .events.box .topShade {
+	height: 20%;
+}
+
+.row .events.box .bottomShade {
+	height: 20%;
+	background: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,0.7) 100%) repeat scroll 0 0 transparent !important;
+}*/
+
+
+
+.row .events.box .boxContent a {
+		color: #deb846;
+}
+
+
+.row .events.box .boxContent .highlighted h3 {
+	font-size: 1.4em;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+.home .events-table {
+	color: #fff;
+}
+
+.home .events-table a {
+
+color: #deb846;
+line-height: 1.4em;
+font-size: 14px;
+
+}
+
+
+
+.home .events-table tr td {
+	padding-top: 1em;
+}
+
+.home .events-table thead tr th {
+	font-weight: bold;
+}
+
+
+
+.boxContent h3.spotlight_title_small {
+	font-size: 14px;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+	border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+.box.videos img {
+	margin-top: -70px;
+	height: 180% !important;
+	width: auto !important;
+}
+
+footer#colophon .inner .copyright {
+	margin-top: 20px;
+}
+
+footer#colophon .socialRef {
+	margin-top: 80px;
+}
+
+.single #content.fullWidth {
+	width: 940px;
+}
+
+
+/*** ICON FONTS FOR WEATHER ***/
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#weather {
+
+	position: relative;
+	margin: 0 auto;
+	margin-top: -220px;
+	padding-right: 2em;
+	z-index:50;
+
+  text-align: right;
+  text-transform: uppercase;
+}
+
+#weather i {
+  color: #fff;
+  font-family: weather !important;
+  font-size: 34px !important;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+
+.gform_wrapper {
+	display: block;
+
+}
+
+.events-table tr td i {
+	display: none;
+}
+
+.personPhoto {
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	margin: 0 auto;
+	transform: rotate(0.000001deg);
+	-webkit-transform: rotate(0.000001deg);
+
+}
+
+.personPhoto a:hover img {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	
+}
+
+.personPhoto img {
+	width: 100%;
+	height: auto;
+	transition: 0.8s;
+	-webkit-transition: 0.8s;
+	
+}
+
+.facultyList .faculty {
+	float: left;
+	width: 33%;
+	margin-top: 40px;
+}
+
+.faculty .text {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.faculty .text h3 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.facultyImage {
+	float: right;
+	width: 30%;
+}
+
+.facultyMainInfo {
+	float: left;
+	width: 60%;
+}
+
+.single-faculty .facultyImage img, .single-seniors .facultyImage img, .single-graduatestudents .facultyImage img {
+	width: 200px;
+	height: auto;
+}
+
+.singular.single-faculty .hentry, .singular.single-seniors .hentry, .singular.single-graduatestudents .hentry {
+	padding-top: 0px;
+}
+
+#content > h2.taxonomy_title:first-child {
+	padding-top: 0px;
+}
+
+h2.taxonomy_title {
+	padding-top: 3em;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/* Tribe Events Custom CSS */
+
+
+ul.ecs-event-list{
+	list-style-type:none;
+	padding:0 0 2em 0;
+	margin-left:2em;
+}
+
+html body div#primary div.boxContent div.highlighted ul.ecs-event-list li.ecs-event h4.entry-title.summary a, html body div.mobileScroll div#content div.boxContent ul.ecs-event-list li.ecs-event h4.entry-title.summary a{
+	font-weight:300;
+	font-size:14px;
+}
+
+ul.ecs-event-list li h4.entry-title{
+	line-height: 1.2em;
+	font-size:16px;
+	 -webkit-font-smoothing: antialiased; 
+}
+
+ul.ecs-event-list li span.duration.time{
+	font-size:11px;
+	 -webkit-font-smoothing: antialiased;
+	 color:#deb846;
+}
+
+ul.ecs-event-list li.ecs-event h4 a,ul.ecs-event-list li.ecs-event h4 a:link,ul.ecs-event-list li.ecs-event h4 a:visited,ul.ecs-event-list li.ecs-event h4 a:hover,ul.ecs-event-list li.ecs-event h4 a:active{
+	font-size:16px;
+	color:#fff;
+
+}
+
+#content div.boxContent .highlighted{
+	padding:0 0 2em 0;
+}
+
+#content div.boxContent > .ecs-event-list{
+	padding:0 0 2em 0;
+	margin:0;
+}
+
+#content div.boxContent .highlighted h3{
+	padding-left:1.5em;
+	font-size:12px;
+
+	font-size: 13px;
+	font-weight:bold;
+    z-index: 2;
+    color: rgba(255,255,255,0.9);
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+#content div.boxContent ul.ecs-event-list li h4.entry-title.summary a{
+	
+	font-family:"Open Sans Light",sans-serif;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant-caps:normal;
+	font-variant-ligatures: normal;
+	font-variant-numeric:normal;
+	font-weight:400;
+	text-shadow:none;
+	text-rendering:auto;
+	line-height: 22.1px;
+	margin-top:12px;
+	color:#fff;
+}
+
+/* color:#deb846;*/
+
+
+

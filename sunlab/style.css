@@ -1,0 +1,12 @@
+/*
+Theme Name:     Sun Lab
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Sun Lab child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+@import url("../calswptheme/mobile.css");

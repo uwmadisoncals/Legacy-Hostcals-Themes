@@ -1,0 +1,13 @@
+/*
+Theme Name:     Campus Technical Issues Group
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Campus Technical Issues Group child theme for the UWMadison WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       uwmadison
+Version:        0.1.0
+*/
+
+@import url("../uwmadison/style.css");
+@import url("../uwmadison/responsive.css");
+

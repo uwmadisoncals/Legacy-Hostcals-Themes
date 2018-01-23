@@ -1,0 +1,41 @@
+.headeroverlay {
+	background: #fff;
+}
+
+.headeroverlay a {
+	color: #000;
+}
+.headeroverlay a:hover {
+	background: #b8b8b8;
+}
+
+#access .totop {
+	display: none;
+}
+
+.headershade {
+	display: none;
+}
+
+.box.span-50 {
+	width: 48.7%;
+}
+
+.box.span-33 {
+	width: 32%;
+}
+
+.collegeFeature .slideImage {
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+
+#page {
+	position: relative;
+	z-index:5;
+}
+
+.ieFooter {
+	background: #3c3b3b;
+	height: 400px;
+}

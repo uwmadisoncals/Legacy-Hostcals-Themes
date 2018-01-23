@@ -1,0 +1,14 @@
+/*
+Theme Name:     Scimed GRS
+Theme URI:      http://uwtheme.wordpress.wisc.edu/
+Description:    Scimed GRS child theme for the CALS WP Theme
+Author:         University Communications | Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       uwmadison
+Version:        0.2.0
+*/
+
+@import url("../uwmadison/style.css");
+
+@import url("stylesheets/css/main.css");
+

@@ -1,0 +1,126 @@
+/*
+Theme Name:     Landscape Architecture 2015
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+@import url("../calsmain2013/master.css");
+
+.home div#main {
+	margin-bottom: 0px;
+}
+
+.home.single #content, .home.page #content, .home.search-results #content, .home.archive #content, .home.error404 #content, .home.search-no-results #content {
+	background: transparent;
+	padding: 0px;
+	box-shadow: none;
+}
+
+.spotlight_title.links a {
+	color: #deb846;
+}
+
+#access .navWrapper .menu {
+	padding-right: 0px;
+}
+
+#access .globalSearch {
+	top: -60px;
+	right: 0px;
+	width: 206px;
+	height: 40px;
+
+	z-index:15;
+
+}
+
+#branding #access #searchform {
+	right: 0px;
+	border-left: none;
+	background: rgba(255,255,255,0.6);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+
+.row .events.box .boxContent .highlighted {
+	font-size: 12px;
+}
+
+#branding #access #s {
+	border-left: none;
+	width: 70px;
+}
+
+#branding #access #s:focus {
+	border-left: none;
+	width: 200px;
+}
+
+div.contrastmask2 {
+	height: 500px;	
+}
+
+.personPhoto {
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 200px;
+	margin: 0 auto;
+	transform: rotate(0.000001deg);
+	-webkit-transform: rotate(0.000001deg);
+
+}
+
+.personPhoto a:hover img {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	
+}
+
+.personPhoto img {
+	width: 120%;
+	height: auto;
+	transition: 0.8s;
+	-webkit-transition: 0.8s;
+	margin-left: -14px;
+}
+
+.facultyList .faculty {
+	float: left;
+	width: 33%;
+	margin-top: 40px;
+}
+
+.faculty .text {
+	text-align: center;
+	margin-top: 8px;
+}
+
+.faculty .text h3 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.facultyImage {
+	float: right;
+	width: 30%;
+}
+
+.facultyMainInfo {
+	float: left;
+	width: 60%;
+}
+
+.single-faculty .facultyImage img, .single-seniors .facultyImage img, .single-graduatestudents .facultyImage img {
+	width: 200px;
+	height: auto;
+}
+
+.singular.single-faculty .hentry, .singular.single-seniors .hentry, .singular.single-graduatestudents .hentry {
+	padding-top: 0px;
+}

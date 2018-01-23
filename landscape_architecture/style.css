@@ -1,0 +1,397 @@
+/*
+Theme Name:     Landscape Architecture
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Landscape Architecture child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calswptheme
+Version:        0.1.0
+*/
+
+@import url("../calswptheme/style.css");
+@import url("../calswptheme/mobile.css");
+
+
+.page-template-page-home-php #content {
+	padding: 0px;
+	width: 940px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.page-template-page-home-php .panel-grid-cell {
+	
+	padding: 0 7px 0 7px;
+	
+	
+}
+
+.page-template-page-home-php .panel-grid-cell .panel {
+height: 280px;
+	background:#fff;
+	overflow: hidden;
+	border: 1px solid #b7b7b7;
+	padding: 30px;
+	box-sizing: border-box;
+	-moz-box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+}
+
+.page-template-page-home-php .panel-grid-cell #panel-0-0-0 {
+	height: auto;
+	min-height: auto;
+}
+
+.page-template-page-home-php .panel-grid {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.page-template-page-home-php .flexslider {
+	margin: -30px;
+	
+}
+
+.page-template-page-home-php .flexslider img {
+	/*height: 280px;*/
+	
+	
+}
+
+#pgc-2-0 .panel, #pgc-2-2 .panel, #pgc-2-1 .panel, #pg-241-2 .panel {
+	padding: 0px;	
+	position: relative;
+}
+
+#pgc-2-0 .panel .widget-title, #pgc-2-2 .panel .widget-title, #pgc-2-1 .panel .widget-title, #pg-241-2 .widget-title {
+	display: none;
+}
+
+article.contour {
+	position: relative;
+}
+
+.panel .contourpostImage {
+	position: relative;
+	height: 100%;
+}
+
+.panel .contourFade {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	right: 0px;
+	z-index:3;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.95) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.82))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#d1000000',GradientType=0 ); /* IE6-9 */	height: 150px;
+}
+
+.singular .hentry {
+	padding: 0px;
+}
+
+.panel .contourpostImage .wp-post-image {
+	width: 100%;
+	max-width: 100%;
+}
+
+.blog #secondary {
+	float: left;
+}
+
+@-moz-document url-prefix() {
+	.right-sidebar #content, .left-sidebar #content {
+		width: 630px;
+	}
+}
+
+.home.right-sidebar #content {
+	width: auto;
+}
+
+#pgc-2-0 .panel .entry-header, #pgc-2-2 .panel .entry-header, #pgc-2-1 .panel .entry-header, #pg-241-2 .panel .entry-header  {
+	position: absolute;
+	top:0px;
+	left: 36px;
+	height: 150px;
+	z-index:5;
+	font-size: 16px;
+	color: #fff;
+}
+
+#pgc-2-0 .panel .entry-header .entry-title a, #pgc-2-2 .panel .entry-header .entry-title a, #pgc-2-1 .panel .entry-header .entry-title a, #pg-241-2 .panel .entry-header .entry-title a {
+	display: block;
+	padding-top: 170px;
+}
+
+#pgc-2-0 .panel .entry-header a, #pgc-2-2 .panel .entry-header a, #pgc-2-1 .panel .entry-header a, #pg-241-2 .panel .entry-header a {
+	font-size: 26px;
+	color: #fff;
+	font-family: "Open Sans";
+	font-weight: 300;
+	text-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+}
+
+#pgc-2-0 .panel .entry-header a.featureboxLink:hover, #pgc-2-2 .panel .entry-header a.featureboxLink:hover, #pgc-2-1 .panel .entry-header a.featureboxLink:hover, #pg-241-2 .panel .entry-header a.featureboxLink:hover { 
+	font-size: 26px;
+	color: #fff;
+	font-family: "Open Sans";
+	font-weight: 300;
+	text-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+}
+
+.featureboxLink:hover {
+	color: #fff;
+}
+
+.facultySidebar {
+	float: right;
+	width: 220px;
+	margin-top: 0px;
+	margin-right: 0px;
+	
+	
+}
+
+
+.facultySide {
+	background: #fff;
+	text-align: left;
+	padding: 20px;
+}
+
+.newsItem .previousa {
+	height: 460px !important;
+}
+
+.newsItem.seniors .previousa {
+	height: 325px !important;
+}
+
+.newsItem .text h3 {
+	color: #3d3d3d;
+	font-size: 20px;
+}
+
+.newsItem.homewidget a:link, .newsItem.homewidget a:visited, .newsItem.homewidget .previousa {
+	width: auto;
+	text-align: left;
+}
+
+.contactInfo {
+	margin-top: 20px;
+}
+
+.contactInfo div {
+	padding-left: 26px;
+	margin-bottom: 6px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+}
+
+.contactInfo div.officeLocation {
+	background: url("images/officelocation.png") no-repeat;
+	
+}
+
+.contactInfo div.officePhone {
+	background: url("images/officephone.png") no-repeat;
+	background-position: 0px 2px;
+	
+}
+
+.contactInfo div.officeEmail {
+	background: url("images/officeemail.png") no-repeat;
+	background-position: 0px 4px;
+}
+
+
+.newsItem.faculty a:link, .newsItem.faculty a:visited, .newsItem.faculty .previousa {
+	
+	text-align: left;
+	
+	
+}
+
+/*.newsItem.faculty .additionalContent {
+	height: 270px;
+	overflow: hidden;
+}
+*/
+
+
+.facultyImage {
+	float: right;
+	width: 48%;
+	
+}
+
+.facultyMainInfo {
+	float: left;
+	width: 48%;
+}
+
+.facultyMainInfo h1 {
+	color: #91621e;
+}
+
+.facultyImage img {
+	width: 290px;
+	float: right;
+}
+
+.singular .hentry.faculty {
+	padding-top: 0px;
+}
+
+.page .extra-widget-area {
+	display: none;
+}
+
+.home #panel-1-1-0 .entry-title {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+
+.home #panel-1-1-0 .post {
+	margin-bottom: 40px;
+}
+
+
+.home #panel-1-1-0 .entry-content, .home #panel-1-1-0 .cat-links {
+	display: none;
+}
+
+
+
+div.entry-content, .singular div.entry-content {
+-moz-column-count: 2;
+-webkit-column-count: 2;
+column-count: 2;
+-moz-column-gap: 40px;
+-webkit-column-gap: 40px;
+column-gap: 40px;
+margin-bottom: 40px;
+}
+
+.home div.entry-content, .home.singular div.entry-content, .blog div.entry-content, .single div.entry-content {
+-moz-column-count: 1;
+-webkit-column-count: 1;
+column-count: 1;
+-moz-column-gap: 0px;
+-webkit-column-gap: 0px;
+column-gap: 0px;
+margin-bottom: 0px;
+}
+
+.singular.single-faculty div.entry-content.One, .attachment div.entry-content, .singlecolumn div.entry-content, .page-id-256 div.entry-content, .page-id-258 div.entry-content, .page-id-260 div.entry-content, .page-id-259 div.entry-content, .page-id-261 div.entry-content {
+	-moz-column-count: 1;
+-webkit-column-count: 1;
+column-count: 1;
+-moz-column-gap: 40px;
+-webkit-column-gap: 40px;
+column-gap: 40px;
+margin-bottom: 40px;
+}
+
+.single #primary, .page #primary {
+	width: 944px;
+}
+
+.contourMoreIssues, .councilMoreIssues, .monthlyFeatures {
+	display: none;
+}
+
+#pgc-241-2-0 .panel a.contourMoreIssues {
+	display: block;
+	padding: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	background: #d18e19;
+	position: absolute;
+	top: 230px;
+	left: 30px;
+	font-size: 12px;
+	z-index:5;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+#pgc-241-2-2 .panel a.contourMoreIssues {
+	display: block;
+	padding: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	background: #d18e19;
+	position: absolute;
+	top: 230px;
+	left: 30px;
+	font-size: 12px;
+	z-index:5;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+
+#pgc-241-2-1 .panel a.monthlyFeatures {
+	display: block;
+	padding: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: #fff;
+	background: #d18e19;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 12px;
+	z-index:5;
+	-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+.entry-content .panel-grid-cell .contourpostImage img {
+	max-width: 150%;
+	height: 290px;
+	
+
+}
+
+#pgc-1-0 a {
+	font-size: 14px;
+}
+
+
+.entry-content h3, .comment-content h3 { 
+	font-size: 16px;
+}
+
+
+
+
+#panel-1-0-0 {
+	background: #fff url("images/quicklinksbg.png")no-repeat;
+	background-position: top right;
+}
+
+.single-faculty #content, .single-seniors #content, .single-graduatestudents #content {
+	width: 940px;
+}
+
+.home .entry-content {
+	padding-top: 0px;
+}

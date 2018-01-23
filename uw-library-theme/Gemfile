@@ -1,0 +1,31 @@
+source 'https://rubygems.org'
+
+gem 'sass', '~> 3.3.4'
+
+# Needs a node runtime. Using therubyracer for compatibility
+gem 'uglifier', '~> 2.5.0'
+
+gem 'therubyracer', '~> 0.12.1'
+
+# We need guard, and probably should use this instead of foreman..
+# unless we can have foreman figure out monitoring options for file
+# changes.
+
+group :development do
+	#gem 'foreman', '~> 0.63.0'
+
+	#gem 'guard', '~> 2.6.0'
+	
+	gem 'listen', '~> 2.0'
+
+	# rerun does not work, keeps an infinite loop going of re-generation.
+	#gem 'rerun', '~> 0.9.0'
+
+	# OS X event monitoring for sass
+	gem 'rb-fsevent', '~> 0.9.4'
+
+	gem 'capistrano', '~> 3.1.0'
+
+end
+
+

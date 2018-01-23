@@ -1,0 +1,34 @@
+#menu-comments{
+	display: none;
+}
+
+.mce_inline-heading{
+	display:block;
+	background: rgba(203, 200, 183, 0.3);
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 14px;
+	margin: 2.5em 0px -0.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Raleway", "Open Sans", sans-serif;
+	color: #525046;
+	border-left: 3px solid rgba(203, 200, 183, 0.6);
+	padding-left: 0.5em;
+}
+
+.button{
+	background: #c93f3f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c93f3f 0%, #a01818 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c93f3f), color-stop(100%,#a01818)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c93f3f 0%,#a01818 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c93f3f 0%,#a01818 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c93f3f 0%,#a01818 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c93f3f 0%,#a01818 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c93f3f', endColorstr='#a01818',GradientType=0 ); /* IE6-9 */
+	border: none;
+	border-bottom: 3px solid #7e1010;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 11px 24px 10px;
+}

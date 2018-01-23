@@ -1,0 +1,163 @@
+/**
+Theme Name:     Soils Extension Working
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+@import url("../calsmain2013/style.css");
+@import url("../calsmain2013/mobile.css");
+@import url("master-child.css");
+
+/*html.csstransforms body#calsblack.home div.mobileScroll div#page.hfeed header#branding div.headerCentered hgroup.heading img#logoExt {
+    left: 120px;
+    position: relative;
+    top: 10px;
+} */
+
+body.home div#main{
+    margin-bottom:0;
+}
+
+html.csstransforms body#calsblack.home div.mobileScroll div#page.hfeed header#branding div.headerCentered hgroup.heading img#logoExt {
+    position: absolute;
+    right: -60px;
+    top: -28px;
+}
+
+html.csstransforms body#calsblack.page div.mobileScroll div#page.hfeed header#branding div.headerCentered hgroup.heading img#logoExt {
+    position: absolute;
+    right: -60px;
+    top: -28px;
+}
+
+html.csstransforms body#calsblack.search div.mobileScroll div#page.hfeed header#branding div.headerCentered hgroup.heading img#logoExt {
+    position: absolute;
+    right: -60px;
+    top: -28px;
+}
+
+html.csstransforms body#calsblack.single div.mobileScroll div#page.hfeed header#branding div.headerCentered hgroup.heading img#logoExt {
+    position: absolute;
+    right: -60px;
+    top: -28px;
+}
+
+div.newsItem .text {
+	position: relative;
+	}
+
+div#container.super-list div.newsItem div.previousa div.text div.excerpt{
+	display:inline;
+}
+
+
+
+/* Isotope styling on index.php */
+.newsItem a .highlight, .newsItem .previousa .highlight {
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+.newsItem{
+ border-radius: 4px 4px 4px 4px;
+}
+
+
+html.csstransforms body#calsblack.home div.mobileScroll div#page.hfeed div#main div#primary div#content div#container.super-list div.newsItem div.previousa div.text {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+div.newsItem .text {
+    background: none repeat scroll 0 0 #FFFFFF;
+    max-height: 100%;
+    min-height: 20px;
+    padding: 30px 24px;
+    position: relative;
+}
+
+.newsItem .text .glyph {
+    display: none;
+}
+
+html.csstransforms body#calsblack.home div.mobileScroll div#page.hfeed div#main div#primary div#content div#container.super-list div.newsItem div.previousa div.text div.titleheading{
+    border-bottom: medium none;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align:left;
+}
+
+.categoryItem {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+html.csstransforms body#calsblack.home div.mobileScroll div#page.hfeed div#main div#primary div#content div#container.super-list div.newsItem div.previousa div.text div.titleheading h3{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+
+div#container.super-list div.newsItem div.previousa div.text div.excerpt {
+    text-align: left;
+}
+
+
+html.csstransforms body#calsblack.home div.mobileScroll div#page.hfeed div#main div#primary div#content div#container.super-list div.newsItem div.previousa div.text div.dateheading{
+    color: #AE7619;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.4em;
+    margin-top: 0;
+    text-align: left;
+    text-transform: none;
+}
+
+html body.search.search-results span.edit-link a{
+    display:none;
+}
+
+html body.search.search-results div.headeroverlay{
+    height:auto;
+}
+
+html body.search.search-results div#content {
+    margin-top:100px;
+}
+
+html body.page-sr span.edit-link a {
+    display:none;
+}
+
+html body.page-sr div.comments-link a {
+    display:none;
+}
+
+html body.page-sr span.comments-link a span.leave-reply {
+    display:none;
+}
+
+/*
+Autocomplete styling for the form on page-wcmc
+ */
+div#autoc ul li{
+    list-style-type: none;
+}

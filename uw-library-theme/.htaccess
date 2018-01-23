@@ -1,0 +1,15 @@
+<Files "Gemfile*">
+	Require all denied
+</Files>
+<Files "Capfile">
+	Require all denied
+</Files>
+<Files "README.md">
+	Require all denied
+</Files>
+<Files "build.rb">
+	Require all denied
+</Files>
+<Files "CHANGELOG.md">
+	Require all denied
+</Files>

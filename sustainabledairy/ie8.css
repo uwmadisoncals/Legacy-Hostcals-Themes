@@ -1,0 +1,11 @@
+body {
+	background: #ebebe1 url("images/CALS_bg.jpg") repeat-x;
+}
+
+nav ul li a:link {
+	font-size: 11px;
+}
+
+#branding input#s {
+	background-color: #8f8f8f;
+}

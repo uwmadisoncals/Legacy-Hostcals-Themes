@@ -1,0 +1,36 @@
+// Variables
+$primary-color-tan: #cbc8b7;
+$secondary-color-tan: #efeee9;
+$tertiary-color-tan: #878579;
+
+$light-color-red: #c93f3f;
+$dark-color-red: #a01818;
+
+$chat-color-blue: #5598d1;
+$dark-color-blue: #5F7C96;
+
+
+// Import other SCSS
+@import 'fonts';
+@import 'spinner';
+@import 'directory';
+@import 'subjectLibrarian';
+@import 'default';
+@import 'library';
+@import 'search';
+@import 'campus-libraries';
+@import 'datepicker';
+@import 'ask';
+@import 'events';
+@import 'baseGravityForms';
+@import 'gravityForms';
+@import 'local-sites';
+@import 'find-a-library';
+@import 'blog';
+@import 'loanperiods';
+@import 'library-features';
+@import 'tinymce-formats';
+@import 'friends';
+@import 'flickr';
+@import 'imagelightbox';
+@import 'mobile';

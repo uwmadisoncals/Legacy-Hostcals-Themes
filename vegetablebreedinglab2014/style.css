@@ -1,0 +1,16 @@
+/*
+Theme Name:     Irwin Goldman Vegetable Breeding Lab 2014
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS WP Theme
+Author:         Al Nemec
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+/*@import url("../calsmain2013/style.css");*/
+
+/*@import url("../calsmain2013/mobile.css");*/
+
+
+@import url("../calsnews2013/master.css");

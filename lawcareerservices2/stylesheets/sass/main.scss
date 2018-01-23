@@ -1,0 +1,172 @@
+////////////////////////////////////////////////////////////////////////////////
+// include modules (mixins,functions, variables)
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+// include partials (they output css)
+////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////
+// include modules & variables
+////////////////////////////////////////////////////////////////////////////////
+@import "__vendor__.scss"; //imports all vendor partials
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+// SASS OVERRIDES
+////////////////////////////////////////////////////////////////////////////////
+
+	////////////////////////
+	// vendor: _grid.scss //
+	////////////////////////
+	
+	$total_width: 100%;
+	$container_margin: 3.85%;
+	$gutter_width: 3.85%;
+	$max_width: 1233px;
+
+
+////////////////////////////////////////////////////////////////////////////////
+// The original theme CSS overides, this must remain at the top
+////////////////////////////////////////////////////////////////////////////////
+
+.profileSummary {
+	width: 31%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	float: left;
+	height: 500px;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,0.3);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.profileSummary:last-child {
+	margin-right: 0px;
+}
+
+.profileSummary .textCopy {
+	padding: 1em;
+}
+
+.profileSummary img {
+	width: 100%;
+	height: auto;
+	
+}
+
+.singleProfile {
+	float: left;
+}
+
+.singleProfile h1 {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.imagePlacement img {
+	width: 33%;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	float: right;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,0.15);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+.profileSummary .imageCrop {
+	max-height: 200px;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.profileSummary h3 a, .singular .profileSummary .entry-title {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.profileSummary h3 a:hover {
+	text-decoration: underline;
+}
+
+.profileSummary .textCopy {
+	font-size: 12px;
+	padding-top: 0px;
+	
+}
+
+.profileSummary .textCopy .row {
+	margin-bottom: 1em;
+}
+
+.profileSummary .textCopy .subTitle {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #B70101;
+}
+
+.home .entry-header {
+	display: none;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// page-profiles.php , Student Profile Search Field
+////////////////////////////////////////////////////////////////////////////////
+.hidden{
+	display:none;
+}
+
+.visible{
+	display:inline;
+}
+
+div#prof_s_wrapper{
+    display: block;
+    height: 3.25em;
+    width: 97%;
+}
+
+#main #prof_s {
+    background-color: #FFFFFF;
+    float: left;
+    transition-duration: 400ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    width: 22%;
+    margin-top:0.65em;
+    &:focus{
+    	width:35%;
+    }
+}
+
+input#prof_s {
+    background: url("../../images/search.png") no-repeat scroll 5px 6px #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.2em;
+    padding: 4px 10px 4px 28px;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Experimenting with the look of the theme
+////////////////////////////////////////////////////////////////////////////////

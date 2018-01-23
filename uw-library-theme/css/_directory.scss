@@ -1,0 +1,276 @@
+.directorySearch{
+
+	span.loc, span.mail, span.ph{
+		text-align: left;
+	}
+	
+	.searchContainer {
+		position: relative;
+		display: block;
+		width: 60%;
+		margin-top: 2em;
+		
+			
+			div#floatingCirclesG {
+				position: absolute;
+				top: 4px;
+				right: 4px;
+				z-index:2;
+			}
+	}
+	
+	input{
+		width: 100%;
+	}
+	
+	.searchError{
+		font-size: 18px;
+		background-image: url(/assets/img/warning.svg);
+		background-repeat: no-repeat;
+		padding-left: 2em;
+		line-height: 30px;
+		margin-top: 2em;
+		color: #5e5e5e;
+	}
+}
+
+#staff_list,
+.loc-staff-list{
+	ul{
+		margin-top: 4em;
+		list-style: none;
+		margin-left: 0em;
+		padding: 0em;
+	}
+	
+	
+	li{
+		padding-bottom: 4em;
+		position: relative;
+		list-style: none;
+		
+		.cn{
+			display: block;
+			font-weight: bold;
+			text-transform: uppercase;
+			position: absolute;
+			top: -0.9em;
+			width: 100%;
+		}
+		
+		.cn:after{
+			content: "";
+			display: block;
+			height: 1px;
+			background: #dedede;
+			width: 100%;
+		}
+	}
+}
+
+
+
+.loc,
+.mail,
+.ph,
+.hours{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0em 1.2em;
+	background-size: 20px 20px;
+	padding: 1.1em;
+	display: inline-block;
+	word-wrap: break-word;
+	vertical-align: top;
+	text-align: left; 
+}
+
+.loc{
+	background-image: url(/assets/img/location.svg);
+	padding-left: 1.7em;
+	width: 300px;
+}
+	
+.mail{
+	background-image: url(/assets/img/local_sites/email.svg);
+	padding-left: 1.9em;
+	width: 230px;
+	padding-top: 1.1em;
+}
+
+.ph{
+	background-image: url(/assets/img/local_sites/phone.svg);
+	padding-left: 2em;
+	min-width: 150px;
+}
+
+.hours{
+	background-image: url(/assets/img/local_sites/clock.svg);
+	padding-left: 2em;
+	width: 150px;
+}
+
+
+.entry-content.staff_details_empty{
+		font-size: 16px;
+		margin-top: 2em;
+		color: #5e5e5e;
+	}
+
+#staff_details{
+	position: relative;
+	
+	.title{
+		color: #666;
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		margin: 0em 0em 3em;
+		text-align: left;
+	}
+	
+	.note:before{
+		content: "What I do";
+		display: block;
+		font-size: 18px;
+		margin-bottom: 0.5rem;
+		margin-top: 0rem;
+		color: #66655F;
+		border-bottom: 1px solid rgba(102, 101, 95, 0.3);
+	}
+	
+	.note{
+		position: absolute;
+		width: 45%;
+		right: -45px;
+		top: 60px;
+		margin-top: 4rem;
+		background: rgba(233, 231, 218, 0.70);
+		padding: 1.5rem;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		text-align: left;
+		line-height: 2.5em;
+	}
+	
+	.entry-header{
+		margin-left: 0px;
+	}
+	
+	.loc,
+	.mail,
+	.ph{
+		padding-bottom: 0em;
+		display: block;
+	}
+	
+	.loc{
+		span{
+			display: block;
+		}
+	}
+	
+	.details{
+		margin-top: -1em;
+		display: inline-block;
+		width: 50%;
+		text-align: left;
+		
+	}
+	
+	.liaison{
+		margin-top: 2em;
+		margin-left: 3.5em;
+		display: inline-block;
+		width: 50%;
+		
+		ul{
+			padding: 0px;
+			text-align: left;
+		}
+		
+		ul:before{
+			content: "Subject Specialties";
+			font-weight: bold;
+			margin-left: -2.5em;
+		}
+	}
+}
+
+.dept-list,
+#all-staff{
+
+	ul{
+		list-style: none;
+		margin: 0em;
+		padding: 0em; 
+		
+		li{		
+			padding: 1em 0em;
+			border-bottom: 1px solid #ededed;
+		
+			.nm{
+				width: 30%;
+				vertical-align: top;
+				display: inline-block;
+			}
+			.title{
+				width: 60%;
+				vertical-align: top;
+				display: inline-block;
+			}
+		}
+	}
+	.dept{
+		color: #666;
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		margin: 3em 0em 0em;
+	}
+}
+
+#all-staff{
+	ul {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+		display: block;
+		
+		li{
+			
+			.loc{
+				vertical-align: top;
+				display: inline-block;
+				background-image: none;
+				padding: 0em;
+				text-align: left;
+			}
+		}
+	}
+}
+
+.content-area.staff-page{
+
+	#content{
+		width: 60%;
+	}
+	
+	.right-Nav{
+		width: 40%;
+		
+		.highlights{
+			background: none;
+			border-left: 1px solid #ccc;
+			
+			input, .gform_wrapper.gf_libraryForm .gform_fields.top_label textarea.textarea{
+				width: 100%;
+			}
+		}
+		
+		
+	}
+}

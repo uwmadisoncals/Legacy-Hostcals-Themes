@@ -1,0 +1,178 @@
+#content.ask_content{
+	
+	.entry-title{
+		position: relative;
+		text-indent: -9999px;
+		background-image: url("../images/ASK-full@2x.png");
+		width: 360px;
+		height: 100px;
+		background-size: 320px auto;
+		background-repeat: no-repeat;
+		left: 47px;
+		margin-top: 0.6em;
+	}
+	
+	.entry-content{
+			
+		ul{
+			list-style-type: none;
+			display: inline-block;
+			position: relative;
+			margin: 0em;
+			padding: 0em;
+			
+		}
+		
+		a.chat-button.button{
+			background: #5598d1; /* Old browsers */
+			background: -moz-linear-gradient(top,  #5598d1 0%, #4a82b1 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5598d1), color-stop(100%,#4a82b1)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #5598d1 0%,#4a82b1 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #5598d1 0%,#4a82b1 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #5598d1 0%,#4a82b1 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #5598d1 0%,#4a82b1 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5598d1', endColorstr='#4a82b1',GradientType=0 ); /* IE6-9 */
+			border-bottom: 3px solid #3a6488;
+			color: #fff;
+			padding: 0.5em 1em;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			font-size: 14px;
+		}
+		
+		
+		a.chat-button.button:hover, 
+		a.chat-button.button:focus {
+			background: #5598d1; /* Old browsers */
+			background: -moz-linear-gradient(top,  #5598d1 0%, #3a6488 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5598d1), color-stop(100%,#3a6488)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  #5598d1 0%,#3a6488 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  #5598d1 0%,#3a6488 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  #5598d1 0%,#3a6488 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  #5598d1 0%,#3a6488 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5598d1', endColorstr='#3a6488',GradientType=0 ); /* IE6-9 */
+			border-bottom: 3px solid #2e4e68;
+		}
+		
+		a.chat-button.button:active {
+			border: none;
+			border-top: 3px solid #4c86b7;
+		}
+		
+		a.chat-button.offline{
+			padding: 0.5em 1.3em;
+			font-size: 14px;	
+			vertical-align: middle;
+			color: #aeaeae;
+		}
+		
+		a.chat-button.offline:hover,
+		a.chat-button.offline:focus{
+			text-decoration: none;
+			color: #aeaeae;
+			cursor: default;
+		}
+		
+		#general-library-chat{
+			display: inline-block;
+			position: relative;
+			width: 100%;
+			background: rgba(255, 255, 255, 0.7);
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			padding: 1.5em 1em;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			border: 1px solid #e1e1e1;
+			
+			.chat-library{
+				display: inline-block;
+				font-family: "Raleway", "Open Sans", sans-serif;
+				font-size: 18px;
+				-webkit-font-smoothing: antialiased;
+			}
+			
+			a.chat-button{
+				position: absolute;
+				right: 3.7em;
+				padding: 0.5em 3em;
+				top: 0.8em;
+			}
+			
+			a.chat-button.offline{
+				right: 4em;
+			}
+		}
+	}
+	
+	.to_expand{
+		margin-top: 3em;
+		display: inline-block;
+		margin-left: 0.5em;	
+	}
+}
+
+.right-Nav.ask-contact-info{
+	margin-top: 6em;
+	font-size: 16px;
+	
+	ul.ask-contact{
+		list-style-type: none;
+		margin: 0em;
+		padding: 0em;
+		margin-left: 0.3em;
+		
+		li{
+			position: relative;
+			padding: 0.5em 0em;
+			line-height: 2em;
+			
+			a{
+				padding-left: 1.7em;
+			}
+			svg{
+				width: 23px;
+				height: 23px;
+				left: -0.2em;
+				top: 0.6em;
+				position: absolute;
+				path{
+					fill: #5598d1;
+				}
+			}
+		}
+	}
+	
+	ul.ask-info{
+		list-style-type: none;
+		margin: 1.5em 0em 0em;
+		padding: 0em;
+		position: relative;
+		
+		li{
+			padding: 0.5em 0em;
+		}
+	}
+	
+	ul.ask-info:before{
+		display: block;
+		content: "";
+		position: absolute;
+		top: -10px;
+		left: 0px;
+		height:1px;
+		width: 100%;
+		background: #ccc;
+	}
+}
+
+#local_library_chat{
+	display: none;
+}	
+
+	
+	
+	
